@@ -1,7 +1,4 @@
 resource "null_resource" "example" {
-  # Specify a unique name for the null_resource
-  name = "example"
-
   # Define the triggers for the null_resource
   triggers = {
     # Add any trigger values here
